@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F9003d;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.containerheader {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.containerbanner {
+    position: relative;
+}
+
+.fundo {
+    width: 100%;
+}
+
+.boxcontent {
+    position: absolute;
+    top: 226px;
+    left: 112px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 96px;
+    color: white;
+    font-family: 'Bebas Neue', cursive ;
+    text-transform: uppercase;
+    width: 545px;
+    font-weight: 500;
+}
+
+.hrbanner {
+    color: #FFAF00;
+}
+
+.boxcontent span {
+    color: #F9003d;
+    font-size: 53px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.imgmouse {
+    width: 37px;
+}
+
+.containersobre {
+    background-color: #080324;
+    color: white;
+    height: 800px;
+}
+
+.h2sobre {
+    text-transform: uppercase;
+    color: #F9003d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+}
+
+.boxsobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxsobre img {
+    width: 491px;
+    height: 476px;
+}
+
+.h3sobre {
+    color: #FFAF00;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 64px;
+    width: 557px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.textosobre span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textosobre p {
+    font-family: 'Open Sans', sans-serif;
+    width: 592px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.spacesobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.info {
+    background-image: url(assets_/imagem-fundo-info.png);
+}
+
+.info h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.boxspan {
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    border: 1px solid #a259f7;
+    width: 289px;
+    height: 100px;
+    color: #a259f7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.boxinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxinfocontent {
+    margin: 30px 0;
+}
+
+.endereco {
+    background-image: url(assets_/imagem-fundo-endereco.png);
+    height: 516px;
+}
+
+.boxendereco {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #010010;
+    color: #a259f7;
+    border: 1px solid #a259f7;
+    width: 899px;
+    height: 203px;
+}
+
+.endereco p {
+    margin: 0 66px;
+    width: 434px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.endereco h2 {
+    font-size: 64px;
+    color: #FFAF00;
+    font-family: 'bebas neue', cursive;
+    font-weight: 400;
+}
+
+.enderecoalign {
+    width: 899px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerendereco {
+    display: flex;
+    justify-content: center;
+}
+
+.endereco img {
+    position: absolute;
+    top: 1830px;
+    right: 250px;
+}
+
+.margemimprovisada {
+    height: 100px;
+}
+
+footer {
+    background-color: #F9003d;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 82px;
+}
+
+footer span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
