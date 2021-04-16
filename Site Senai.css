@@ -52,6 +52,7 @@ main {
 
 .fundo {
     width: 100%;
+    object-fit: cover;
 }
 
 .boxcontent {
@@ -242,4 +243,139 @@ footer span {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: white;
+}
+
+
+@media (max-width: 420px){
+
+    header {
+        width: 420px;
+    }
+
+    .containerbanner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fundo{
+        height: auto;
+        width: auto;
+    }
+
+    h1{
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .boxcontent{
+        top: 200px;
+        left: 33px;
+        align-items: center;
+    }
+
+    .boxcontent span{
+        font-weight: 600;
+        font-size: 33px;
+    }
+
+    .hrbanner{
+        width: 350px;
+        display: flex;
+        height: 3px;
+        border-color: #FFAF00;
+    }
+
+    .imgmouse{
+        width: 50px;
+        margin-top: 30px;
+    }
+    
+    .h2sobre{
+        font-size: 52px;
+        margin: 50px 0;
+    }
+
+    .boxsobre{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .boxsobre img{
+        height: 300px;
+        width: unset;
+    }
+
+    .containersobre{
+        height: auto;
+    }
+
+    .spacesobre{
+        height: auto;
+        align-items: center;
+    }
+
+    .container{
+        width: 80vw;
+    }
+
+    .h3sobre{
+        width: auto;
+        font-size: 35px;
+        margin: 50px 0;
+    }
+
+    .textosobre {
+        margin: 50px 0;
+    }
+
+    .textosobre p{
+        width: auto;
+        text-align: justify;
+    }
+
+    .boxinfo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endereco img{
+        position: unset;
+        margin-bottom: 100px;
+        width: 335px;
+    }
+
+    .enderecoalign{
+        width: 80vw;
+        justify-content: space-around;
+    }
+
+    .margemimprovisada{
+        height: auto;
+    }
+
+    .boxendereco{
+        width: auto;
+        margin-bottom: 50px;
+        height: 250px;
+    }
+
+    .endereco{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .endereco p{
+        margin: 0 20px;
+        font-size: 30px;
+    }
+
+    .endereco h2{
+        margin: 50px 0;
+    }
+
+    footer span{
+        text-align: center;
+        font-size: 20px;
+    }
 }
